@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BookShopManagement/FileContentIndex
+/.vs/BookShopManagement/v17/.wsuo
+/bin/Debug
+/.vs/BookShopManagement/v17/DocumentLayout.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/obj
