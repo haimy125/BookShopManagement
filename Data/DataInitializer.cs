@@ -132,7 +132,27 @@ namespace BookShopManagement.Data
                 new HoaDon { MsHd = "HD007", NgayLap = DateTime.Now, MsKh = "KH007", MsNv = "NV007", TongTien = 600000, DienGiai = "Mua sách", Loai = 2 },
                 new HoaDon { MsHd = "HD008", NgayLap = DateTime.Now, MsKh = "KH008", MsNv = "NV008", TongTien = 700000, DienGiai = "Mua sách", Loai = 1 },
                 new HoaDon { MsHd = "HD009", NgayLap = DateTime.Now, MsKh = "KH009", MsNv = "NV009", TongTien = 800000, DienGiai = "Mua sách", Loai = 2 },
-                new HoaDon { MsHd = "HD010", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV010", TongTien = 650000, DienGiai = "Mua sách", Loai = 1 }
+                new HoaDon { MsHd = "HD010", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV010", TongTien = 650000, DienGiai = "Mua sách", Loai = 1 },
+                new HoaDon { MsHd = "HD011", NgayLap = DateTime.Now, MsKh = "KH001", MsNv = "NV002", TongTien = 450000, DienGiai = "Mua sách giáo khoa", Loai = 1 },
+                new HoaDon { MsHd = "HD012", NgayLap = DateTime.Now, MsKh = "KH002", MsNv = "NV001", TongTien = 600000, DienGiai = "Mua sách tham khảo", Loai = 2 },
+                new HoaDon { MsHd = "HD013", NgayLap = DateTime.Now, MsKh = "KH003", MsNv = "NV003", TongTien = 750000, DienGiai = "Mua sách tiếng Anh", Loai = 1 },
+                new HoaDon { MsHd = "HD014", NgayLap = DateTime.Now, MsKh = "KH004", MsNv = "NV002", TongTien = 500000, DienGiai = "Mua sách thiếu nhi", Loai = 1 },
+                new HoaDon { MsHd = "HD015", NgayLap = DateTime.Now, MsKh = "KH005", MsNv = "NV005", TongTien = 850000, DienGiai = "Mua sách ngoại văn", Loai = 2 },
+                new HoaDon { MsHd = "HD016", NgayLap = DateTime.Now, MsKh = "KH006", MsNv = "NV006", TongTien = 700000, DienGiai = "Mua truyện tranh", Loai = 1 },
+                new HoaDon { MsHd = "HD017", NgayLap = DateTime.Now, MsKh = "KH007", MsNv = "NV001", TongTien = 300000, DienGiai = "Mua sách giáo khoa", Loai = 2 },
+                new HoaDon { MsHd = "HD018", NgayLap = DateTime.Now, MsKh = "KH008", MsNv = "NV002", TongTien = 950000, DienGiai = "Mua sách khoa học", Loai = 1 },
+                new HoaDon { MsHd = "HD019", NgayLap = DateTime.Now, MsKh = "KH009", MsNv = "NV003", TongTien = 200000, DienGiai = "Mua sách văn học", Loai = 2 },
+                new HoaDon { MsHd = "HD020", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV004", TongTien = 800000, DienGiai = "Mua sách nghệ thuật", Loai = 1 },
+                new HoaDon { MsHd = "HD021", NgayLap = DateTime.Now, MsKh = "KH002", MsNv = "NV005", TongTien = 950000, DienGiai = "Mua sách kinh tế", Loai = 2 },
+                new HoaDon { MsHd = "HD022", NgayLap = DateTime.Now, MsKh = "KH001", MsNv = "NV006", TongTien = 600000, DienGiai = "Mua sách giáo khoa", Loai = 1 },
+                new HoaDon { MsHd = "HD023", NgayLap = DateTime.Now, MsKh = "KH003", MsNv = "NV004", TongTien = 400000, DienGiai = "Mua sách lịch sử", Loai = 2 },
+                new HoaDon { MsHd = "HD024", NgayLap = DateTime.Now, MsKh = "KH007", MsNv = "NV005", TongTien = 300000, DienGiai = "Mua sách giáo dục", Loai = 1 },
+                new HoaDon { MsHd = "HD025", NgayLap = DateTime.Now, MsKh = "KH008", MsNv = "NV006", TongTien = 850000, DienGiai = "Mua sách khoa học", Loai = 2 },
+                new HoaDon { MsHd = "HD026", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV001", TongTien = 150000, DienGiai = "Mua truyện tranh", Loai = 1 },
+                new HoaDon { MsHd = "HD027", NgayLap = DateTime.Now, MsKh = "KH006", MsNv = "NV002", TongTien = 700000, DienGiai = "Mua sách tham khảo", Loai = 1 },
+                new HoaDon { MsHd = "HD028", NgayLap = DateTime.Now, MsKh = "KH005", MsNv = "NV003", TongTien = 200000, DienGiai = "Mua sách văn học", Loai = 2 },
+                new HoaDon { MsHd = "HD029", NgayLap = DateTime.Now, MsKh = "KH009", MsNv = "NV004", TongTien = 550000, DienGiai = "Mua sách nghệ thuật", Loai = 1 },
+                new HoaDon { MsHd = "HD030", NgayLap = DateTime.Now, MsKh = "KH002", MsNv = "NV005", TongTien = 700000, DienGiai = "Mua sách kinh tế", Loai = 2 }
             };
 
             ChiTietHoaDons = new List<ChiTietHoaDon>
@@ -146,7 +166,27 @@ namespace BookShopManagement.Data
                 new ChiTietHoaDon { MsHd = "HD007", MsSach = "S007", SoLuong = 2 },
                 new ChiTietHoaDon { MsHd = "HD008", MsSach = "S008", SoLuong = 4 },
                 new ChiTietHoaDon { MsHd = "HD009", MsSach = "S009", SoLuong = 1 },
-                new ChiTietHoaDon { MsHd = "HD010", MsSach = "S010", SoLuong = 3 }
+                new ChiTietHoaDon { MsHd = "HD010", MsSach = "S010", SoLuong = 3 },
+                new ChiTietHoaDon { MsHd = "HD011", MsSach = "S002", SoLuong = 3 },
+                new ChiTietHoaDon { MsHd = "HD012", MsSach = "S005", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD013", MsSach = "S003", SoLuong = 1 },
+                new ChiTietHoaDon { MsHd = "HD014", MsSach = "S008", SoLuong = 4 },
+                new ChiTietHoaDon { MsHd = "HD015", MsSach = "S006", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD016", MsSach = "S001", SoLuong = 1 },
+                new ChiTietHoaDon { MsHd = "HD017", MsSach = "S007", SoLuong = 5 },
+                new ChiTietHoaDon { MsHd = "HD018", MsSach = "S004", SoLuong = 3 },
+                new ChiTietHoaDon { MsHd = "HD019", MsSach = "S002", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD020", MsSach = "S009", SoLuong = 1 },
+                new ChiTietHoaDon { MsHd = "HD021", MsSach = "S010", SoLuong = 3 },
+                new ChiTietHoaDon { MsHd = "HD022", MsSach = "S005", SoLuong = 4 },
+                new ChiTietHoaDon { MsHd = "HD023", MsSach = "S007", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD024", MsSach = "S008", SoLuong = 1 },
+                new ChiTietHoaDon { MsHd = "HD025", MsSach = "S003", SoLuong = 4 },
+                new ChiTietHoaDon { MsHd = "HD026", MsSach = "S001", SoLuong = 1 },
+                new ChiTietHoaDon { MsHd = "HD027", MsSach = "S006", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD028", MsSach = "S005", SoLuong = 3 },
+                new ChiTietHoaDon { MsHd = "HD029", MsSach = "S009", SoLuong = 2 },
+                new ChiTietHoaDon { MsHd = "HD030", MsSach = "S004", SoLuong = 5 }
             };
 
             Bills = new List<Bill>
@@ -160,8 +200,18 @@ namespace BookShopManagement.Data
                 new Bill { MsBill = "BILL007", NgayLap = DateTime.Now, MsKh = "KH007", MsNv = "NV007", MsHd = "HD007", Loai = 1 },
                 new Bill { MsBill = "BILL008", NgayLap = DateTime.Now, MsKh = "KH008", MsNv = "NV008", MsHd = "HD008", Loai = 2 },
                 new Bill { MsBill = "BILL009", NgayLap = DateTime.Now, MsKh = "KH009", MsNv = "NV009", MsHd = "HD009", Loai = 1 },
-                new Bill { MsBill = "BILL010", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV010", MsHd = "HD010", Loai = 2 }
-            };
+                new Bill { MsBill = "BILL010", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV010", MsHd = "HD010", Loai = 2 },
+                new Bill { MsBill = "BILL011", NgayLap = DateTime.Now, MsKh = "KH001", MsNv = "NV002", MsHd = "HD011", Loai = 1 },
+                new Bill { MsBill = "BILL012", NgayLap = DateTime.Now, MsKh = "KH002", MsNv = "NV001", MsHd = "HD012", Loai = 2 },
+                new Bill { MsBill = "BILL013", NgayLap = DateTime.Now, MsKh = "KH003", MsNv = "NV003", MsHd = "HD013", Loai = 1 },
+                new Bill { MsBill = "BILL014", NgayLap = DateTime.Now, MsKh = "KH004", MsNv = "NV002", MsHd = "HD014", Loai = 2 },
+                new Bill { MsBill = "BILL015", NgayLap = DateTime.Now, MsKh = "KH005", MsNv = "NV005", MsHd = "HD015", Loai = 1 },
+                new Bill { MsBill = "BILL016", NgayLap = DateTime.Now, MsKh = "KH006", MsNv = "NV006", MsHd = "HD016", Loai = 2 },
+                new Bill { MsBill = "BILL017", NgayLap = DateTime.Now, MsKh = "KH007", MsNv = "NV001", MsHd = "HD017", Loai = 1 },
+                new Bill { MsBill = "BILL018", NgayLap = DateTime.Now, MsKh = "KH008", MsNv = "NV002", MsHd = "HD018", Loai = 2 },
+                new Bill { MsBill = "BILL019", NgayLap = DateTime.Now, MsKh = "KH009", MsNv = "NV003", MsHd = "HD019", Loai = 1 },
+                new Bill { MsBill = "BILL020", NgayLap = DateTime.Now, MsKh = "KH010", MsNv = "NV004", MsHd = "HD020", Loai = 2 }
+};
 
             ChiTietBills = new List<ChiTietBill>
             {
@@ -174,7 +224,17 @@ namespace BookShopManagement.Data
                 new ChiTietBill { MsBill = "BILL007", MsSach = "S007", SoLuong = 2 },
                 new ChiTietBill { MsBill = "BILL008", MsSach = "S008", SoLuong = 4 },
                 new ChiTietBill { MsBill = "BILL009", MsSach = "S009", SoLuong = 1 },
-                new ChiTietBill { MsBill = "BILL010", MsSach = "S010", SoLuong = 3 }
+                new ChiTietBill { MsBill = "BILL010", MsSach = "S010", SoLuong = 3 },
+                new ChiTietBill { MsBill = "BILL011", MsSach = "S002", SoLuong = 2 },
+                new ChiTietBill { MsBill = "BILL012", MsSach = "S005", SoLuong = 1 },
+                new ChiTietBill { MsBill = "BILL013", MsSach = "S003", SoLuong = 3 },
+                new ChiTietBill { MsBill = "BILL014", MsSach = "S008", SoLuong = 1 },
+                new ChiTietBill { MsBill = "BILL015", MsSach = "S006", SoLuong = 2 },
+                new ChiTietBill { MsBill = "BILL016", MsSach = "S001", SoLuong = 4 },
+                new ChiTietBill { MsBill = "BILL017", MsSach = "S007", SoLuong = 1 },
+                new ChiTietBill { MsBill = "BILL018", MsSach = "S004", SoLuong = 3 },
+                new ChiTietBill { MsBill = "BILL019", MsSach = "S002", SoLuong = 1 },
+                new ChiTietBill { MsBill = "BILL020", MsSach = "S009", SoLuong = 2 }
             };
         }
     }

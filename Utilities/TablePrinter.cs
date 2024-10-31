@@ -9,7 +9,6 @@ namespace BookShopManagement.Utilities
     {
         public static void PrintTable<T>(string title, string[] columnNames, List<T> items, params Expression<Func<T, object>>[] propertySelectors)
         {
-
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
 
