@@ -1,18 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+using System;
+using System.Collections.Generic;
 namespace BookShopManagement.Models
 {
-    internal class TacGia
+
+    public partial class TacGia
     {
+        public TacGia()
+        {
+            this.Saches = new HashSet<Sach>();
+        }
+
         public string MsTg { get; set; }
         public string TenTg { get; set; }
         public string DiaChi { get; set; }
         public string SoDt { get; set; }
 
-        public ICollection<Sach> Sachs { get; set; }
+        public ICollection<Sach> Saches { get; set; }
     }
 }
